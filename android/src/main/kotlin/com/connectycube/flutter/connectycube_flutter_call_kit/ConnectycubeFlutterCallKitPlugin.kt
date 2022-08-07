@@ -310,7 +310,7 @@ class ConnectycubeFlutterCallKitPlugin : FlutterPlugin, MethodCallHandler,
 
     override fun onNewIntent(intent: Intent): Boolean {
         if (intent.action != null && intent.action == ACTION_CALL_ACCEPT) {
-            setOnLockScreenVisibility(true)
+            //setOnLockScreenVisibility(true)
         }
 
         return false
@@ -323,7 +323,7 @@ class ConnectycubeFlutterCallKitPlugin : FlutterPlugin, MethodCallHandler,
         val launchIntent = mainActivity?.intent
 
         if (launchIntent != null && launchIntent.action != null && launchIntent.action == ACTION_CALL_ACCEPT) {
-            setOnLockScreenVisibility(true)
+            //setOnLockScreenVisibility(true)
         }
     }
 

@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "Connecty Cube Callkit example",
+      "type": "dart",
+      "request": "launch",
+      "cwd": "example",
+      "program": "lib\\main.dart"
+    }
+  ]
+}
